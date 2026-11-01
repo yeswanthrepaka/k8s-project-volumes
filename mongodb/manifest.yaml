@@ -60,7 +60,7 @@ spec:
       name: mongodb
     spec:
       accessModes: [ "ReadWriteOnce" ]
-      storageClassName: "standard"
+      storageClassName: "roboshop-ebs"
       resources:
         requests:
           storage: 2Gi    
