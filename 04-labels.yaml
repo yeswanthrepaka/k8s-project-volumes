@@ -3,6 +3,7 @@ kind: Pod
 
 metadata:
   name: label-test
+  namespace: roboshop
   labels:
     project: roboshop
     duration: 2hours
